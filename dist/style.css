@@ -1,0 +1,91 @@
+h1 {
+    text-align: center;
+}
+
+div {
+    margin: 3px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh; 
+}
+
+.projects {
+    flex: 1;
+    background-color: cornflowerblue;
+}
+
+.tasks {
+    flex: 4;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    
+}
+
+.to-do {
+    flex: 1;
+    background-color: darkcyan;
+}
+
+.completed {
+    flex: 1;
+    background-color: dodgerblue;
+}
+
+.table {
+    background-color: burlywood;
+    width: 100%;
+}
+
+td {
+    border: 1px solid red;
+}
+
+.selected {
+    background-color: coral;
+}
+
+
+.container #form-container {
+  position: absolute;
+  left: 50%;
+  top: 25px;
+  animation: animateForm 0.3s ease-in-out 0s;
+}
+
+.container #form-container #project-form {
+  position: relative;
+  top: 100px;
+  left: -50%;
+  display: flex;
+  flex-direction: column;
+  background-color: #c4e7bb;
+  padding: 10px;
+  width: 500px;
+  border: 3px solid black;
+  border-radius: 10px;
+  box-shadow: 0px 0px 30px black;
+}
+.container #form-container #project-form * {
+  padding: 10px;
+  margin: 1%;
+}
+.container #form-container #project-form button {
+  font-size: 1rem;
+  font-family: "Lora", serif;
+}
+.container #form-container #project-form label {
+  font-size: 1.2rem;
+  font-family: "Lora", serif;
+}
+.container #form-container #project-form input {
+  font-size: 1rem;
+  font-family: "Lora", serif;
+}
+
+.selected {
+  background-color: burlywood;
+}

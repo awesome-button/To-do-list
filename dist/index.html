@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My To Do List</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>My To Do List</h1>
+
+    <div class = "container">
+
+        <div class = "projects">
+            <h2>Projects</h2>
+            <table>
+                <tbody class="project-list">
+                <tr> 
+                    <td class="project selected">First project</td>
+                </tr>
+                </tbody>
+            </table>
+            <button class = "button new-project">Add project</button>      
+        </div>
+
+        <div class = "tasks">
+            <div class = "box to-do">
+                <button class="button new-task" disabled>New task</button>
+                <h2>To Do:</h2>
+                <table>
+                    <tbody class="to-do-list">
+
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="box completed">
+                <h2>Completed tasks:</h2>
+                <table><tbody class="completed-list"></tbody></table>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
